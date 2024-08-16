@@ -1,0 +1,91 @@
+body {
+    background-color: #e0e0e0;
+
+    font-family: "Verdana", sans-serif;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+     text-align: center;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.choice-buttons {
+    display: flex;
+     justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    border: none;
+    font-size: 3rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+  transform: scale(1.1);
+}
+
+#choice-rock {
+    background-color: #f44336;
+}
+
+#choice-paper {
+    background-color: #3f51b5;
+}
+
+#choice-scissors {
+    background-color: #4caf50;
+}
+
+#player-score {
+    color: #3f51b5;
+}
+
+#ai-score {
+    color: #f44336;
+}
+
+.game-result {
+    font-size: 1.5rem;
+     font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.score-board {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.reset-game {
+    background-color: #ff9800;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+     cursor: pointer;
+     border: none;
+    transition: background-color 0.3s;
+}
+
+.reset-game:hover {
+    background-color: #e68900;
+}
